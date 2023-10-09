@@ -1,3 +1,9 @@
+/* ---- GENERALLY USED CSS ---- */
+
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header {
   width: 100vw;
   height: 50px;
@@ -20,14 +26,36 @@ nav {
   justify-content: space-between;
 }
 
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+nav h1{
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.nav-links a
+{
+  padding: 10px;
+  font-size: 20px;
+
+}
+
 main {
   width: 80vw;
-  min-height: 80vh;
+  min-height: 50vw;
   margin: 10px auto;
   border: solid 5px; /* temporary border to see the main box */
   position: relative;
 }
 
+
+main article{
+  width: 50vw;
+  position: absolute;
+}
 main img {
   width: 25vw;
   right: 0;
@@ -50,6 +78,14 @@ footer img{
   height: 45px;
 }
 
+/* ---- LANDING PAGE ONLY ---- */
 
+main .main-content{
+  font-size: 50px;
+}
+
+/* ---- ABOUT ME PAGE ONLY ---- */
+
+/* ---- PORTFOLIO PAGE ONLY ---- */
 
 
