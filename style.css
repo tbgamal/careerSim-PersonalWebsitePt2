@@ -1,0 +1,55 @@
+header {
+  width: 100vw;
+  height: 50px;
+  background-color: antiquewhite;
+  align-items: center;
+  height: 80px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  position: static;
+}
+
+nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  align-items: center;  
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  width: 80vw;
+  min-height: 80vh;
+  margin: 10px auto;
+  border: solid 5px; /* temporary border to see the main box */
+  position: relative;
+}
+
+main img {
+  width: 25vw;
+  right: 0;
+  position: absolute
+}
+
+footer {
+  width: 100vw;
+  height: 50px;
+  background-color: antiquewhite;
+  align-items: center;
+  height: 80px;
+  padding: 10px;
+  display: inline-block;
+  position: static;
+  justify-content: center;
+}
+
+footer img{
+  height: 45px;
+}
+
+
+
+
