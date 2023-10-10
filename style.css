@@ -16,6 +16,15 @@ header {
   position: static;
 }
 
+main {
+  width: 80vw;
+  margin: 10px auto;
+  border: solid 5px; /* temporary border to see the main box */
+  position: relative;
+  padding: 10px;
+
+}
+
 nav {
   position: absolute;
   left: 0;
@@ -43,24 +52,7 @@ nav h1{
 
 }
 
-main {
-  width: 80vw;
-  min-height: 50vw;
-  margin: 10px auto;
-  border: solid 5px; /* temporary border to see the main box */
-  position: relative;
-}
 
-
-main article{
-  width: 50vw;
-  position: absolute;
-}
-main img {
-  width: 25vw;
-  right: 0;
-  position: absolute
-}
 
 footer {
   width: 100vw;
@@ -80,12 +72,127 @@ footer img{
 
 /* ---- LANDING PAGE ONLY ---- */
 
-main .main-content{
+.main-content{
   font-size: 50px;
+}
+
+.index-main {
+  width: 80vw;
+  margin: 10px auto;
+  border: solid 5px; /* temporary border to see the main box */
+  position: relative;
+  display: flex;
+  padding: 10px;
+}
+
+main article{
+  width: 50vw;
+  float: inline-start;
+}
+main img {
+  width: 25vw;
+  right: 0;
+  position: absolute
 }
 
 /* ---- ABOUT ME PAGE ONLY ---- */
 
+
+/* section{
+  position: abso;
+
+}
+
+.outer-section .outer-title {
+  border: solid;
+  margin: 5px;
+}
+
+.inner-section {
+  border: solid;
+}
+
+.inner-section .inner-title{
+  border: solid;
+}
+
+.inner-section .inner-article{
+  position: relative;
+  display: flex;
+}
+.inner-section #article-left{
+  border: solid;
+  
+}
+
+.inner-section #image-right{
+  float: right;
+} */
+
+
+/* ==== ABOUT ME PAGE ONLY V2 ==== */
+
+.outer-title{
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  margin: 5px;
+  border-bottom: solid;
+  background-color: aquamarine;
+}
+
+.inner-section{
+  display: block;
+  padding: 10px;
+  border: solid;
+  position: relative
+}
+
+.inner-section h3{
+  text-align: center;
+  background-color: cornsilk;
+  font-size: 20px;
+}
+
+.inner-content{
+  display: flex;
+  
+}
+
+#article-right{
+  float: inline-start;
+}
+
+#image-right img{
+  width: 25vw;
+  right: 0;
+  position: absolute;
+}
+
+/* .inner-content img{
+  width: 50vw;
+} */
+
+
 /* ---- PORTFOLIO PAGE ONLY ---- */
+
+
+
+.test-border{
+  border: solid;
+  display: flex;
+}
+
+.test-content{
+  font-size: 50px;
+  float: inline-start;
+  width: 50vw;
+}
+
+.test-image{
+  float: inline-end;
+  top: 0;
+}
+
 
 
