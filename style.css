@@ -19,7 +19,7 @@ header {
 main {
   width: 80vw;
   margin: 10px auto;
-  border: solid 5px; /* temporary border to see the main box */
+  /* border: solid 5px; temporary border to see the main box */
   position: relative;
   padding: 10px;
 
@@ -52,8 +52,6 @@ nav h1{
 
 }
 
-
-
 footer {
   width: 100vw;
   height: 50px;
@@ -61,25 +59,43 @@ footer {
   align-items: center;
   height: 80px;
   padding: 10px;
-  display: inline-block;
+  display: grid;
   position: static;
   justify-content: center;
 }
 
 footer img{
   height: 45px;
+  justify-self: center;
+}
+
+ul{
+  list-style: circle;
+  /* border: solid; */
+  margin: 10px;
 }
 
 /* ---- LANDING PAGE ONLY ---- */
 
 .main-content{
-  font-size: 50px;
+  font-size: 30px;
+  display: grid;
+  margin: 10px;
+}
+
+.main-content h2{
+  margin: 10px;
+}
+
+.main-content p {
+  margin: 10px;
+  font-size: 0.75em;
 }
 
 .index-main {
   width: 80vw;
   margin: 10px auto;
-  border: solid 5px; /* temporary border to see the main box */
+  /* border: solid 5px; temporary border to see the main box */
   position: relative;
   display: flex;
   padding: 10px;
@@ -92,7 +108,7 @@ main article{
 main img {
   width: 25vw;
   right: 0;
-  position: absolute
+  /* position: absolute */
 }
 
 /* ---- ABOUT ME PAGE ONLY ---- */
@@ -142,10 +158,12 @@ main img {
 }
 
 .inner-section{
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   padding: 10px;
   border: solid;
-  position: relative
+  position: relative;
+  margin-bottom: 20px;
 }
 
 .inner-section h3{
@@ -154,8 +172,12 @@ main img {
   font-size: 20px;
 }
 
+.inner-image{
+  display: grid;
+  
+}
 .inner-content{
-  display: flex;
+  display: grid;
   
 }
 
@@ -163,10 +185,19 @@ main img {
   float: inline-start;
 }
 
-#image-right img{
+.inner-image img{
   width: 25vw;
   right: 0;
-  position: absolute;
+  position: relative;
+  justify-self:end;
+}
+
+.inner-title{
+  margin-bottom: 20px;
+}
+
+.inner-title p{
+  margin-bottom:10px;
 }
 
 /* .inner-content img{
