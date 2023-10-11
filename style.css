@@ -19,7 +19,6 @@ header {
 main {
   width: 80vw;
   margin: 10px auto;
-  /* border: solid 5px; temporary border to see the main box */
   position: relative;
   padding: 10px;
 
@@ -71,7 +70,6 @@ footer img{
 
 ul{
   list-style: circle;
-  /* border: solid; */
   margin: 10px;
 }
 
@@ -95,7 +93,6 @@ ul{
 .index-main {
   width: 80vw;
   margin: 10px auto;
-  /* border: solid 5px; temporary border to see the main box */
   position: relative;
   display: flex;
   padding: 10px;
@@ -108,43 +105,7 @@ main article{
 main img {
   width: 25vw;
   right: 0;
-  /* position: absolute */
 }
-
-/* ---- ABOUT ME PAGE ONLY ---- */
-
-
-/* section{
-  position: abso;
-
-}
-
-.outer-section .outer-title {
-  border: solid;
-  margin: 5px;
-}
-
-.inner-section {
-  border: solid;
-}
-
-.inner-section .inner-title{
-  border: solid;
-}
-
-.inner-section .inner-article{
-  position: relative;
-  display: flex;
-}
-.inner-section #article-left{
-  border: solid;
-  
-}
-
-.inner-section #image-right{
-  float: right;
-} */
-
 
 /* ==== ABOUT ME PAGE ONLY V2 ==== */
 
@@ -200,14 +161,7 @@ main img {
   margin-bottom:10px;
 }
 
-/* .inner-content img{
-  width: 50vw;
-} */
-
-
 /* ---- PORTFOLIO PAGE ONLY ---- */
-
-
 
 .test-border{
   border: solid;
