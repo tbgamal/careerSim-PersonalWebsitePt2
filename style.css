@@ -251,5 +251,8 @@ main img {
   top: 0;
 }
 
+/* CONTACT ME PAGE ONLY */
+
+@media (max-width:415px)
 
 
