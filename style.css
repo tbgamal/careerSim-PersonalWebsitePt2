@@ -15,7 +15,7 @@ header {
   display: flex;
   justify-content: space-between;
   position: static;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 main {
@@ -130,7 +130,7 @@ ul{
   
 }
 
-@media (max-width:415px){
+@media (max-width:425px){
   header{
     font-size: 1.35em;
   }
@@ -253,7 +253,62 @@ main img {
 
 /* CONTACT ME PAGE ONLY */
 
-@media (max-width:415px){
+form{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+/* form{
+  display: grid;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+} */
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 7px;
+  box-sizing: content-box;
+  width: 100%;
+}
+
+form .country{
+  /* grid-column-start: span 2; */
+
+}
+form .message{
+  grid-column-start: span 3;
+  align-items: center;
+}
+form .contactchoice{
+  grid-column-start: span 3;
+}
+form button{
+  grid-column-start: span 3;
+  width: 25%;
+  justify-self: center;
+}
+.form label, form legend {
+  padding: 3px;
+}
+
+.radiolabel {
+  display: flex;
+  flex-direction: column;
+}
+
+.radiolabel div {
+  padding: 3px;
+}
+
+button:hover{
+  background-color: black;
+  color: whitesmoke;
+}
+@media (max-width:822px){
   /* .form-main{
     align-items: ;
 
@@ -265,6 +320,7 @@ main img {
     align-items: center;
     text-align: center;
     justify-content: center;
+    flex-direction: column;
   }
   .form{
     display: flex;
@@ -273,7 +329,46 @@ main img {
     justify-content: center;
     padding: 7px;
     box-sizing: content-box;
-    width: 85%;
+    width: 100%;
+  }
+  .form label, form legend {
+    padding: 3px;
+  }
+
+  .radiolabel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .radiolabel div {
+    padding: 3px;
+  }
+
+  button:hover{
+    background-color: black;
+    color: whitesmoke;
+  }
+  
+}
+
+@media (max-width:425px){
+
+  form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    box-sizing: content-box;
+    width: 100%;
   }
   .form label, form legend {
     padding: 3px;
