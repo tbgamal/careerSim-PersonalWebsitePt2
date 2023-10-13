@@ -32,7 +32,7 @@
 
   <!-- END OF HEADER -->
 
-  <main>
+  <main class="form-main">
     <form action="submit.html">
       <div class="form name">
         <label for="form-name">Name: </label>
@@ -62,7 +62,17 @@
       <div class="form message">
         <label for="form-message">Message: </label>
         <textarea name="form-message" id="form-message" cols="35" rows="10"></textarea>
-      </div>     
+      </div>
+      <div class="form contactchoice">
+        <legend>How do you prefer to be contacted?</legend>
+        <div class="radiolabel">
+          <div><input type="radio" id="contactchoiceemail" name="contact" value="email" /> <label for="contactchoiceemail">Email</label></div>
+          <div><input type="radio" id="contactchoicetext" name="contact" value="phone" /> <label for="contactchoicetext">Text</label></div>
+        </div>
+
+      </div>
+      <button type="submit" id="submit-btn">Submit</button>
+
     </form>
   </main>
 

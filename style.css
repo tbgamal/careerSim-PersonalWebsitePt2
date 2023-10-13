@@ -253,6 +253,46 @@ main img {
 
 /* CONTACT ME PAGE ONLY */
 
-@media (max-width:415px)
+@media (max-width:415px){
+  /* .form-main{
+    align-items: ;
+
+  } */
+
+  form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    box-sizing: content-box;
+    width: 85%;
+  }
+  .form label, form legend {
+    padding: 3px;
+  }
+
+  .radiolabel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .radiolabel div {
+    padding: 3px;
+  }
+
+  button:hover{
+    background-color: black;
+    color: whitesmoke;
+  }
+  
+}
 
 
