@@ -3,6 +3,8 @@
 html {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: medium;
+  width: auto !important;
+  overflow-x: hidden !important;
 }
 
 header {
@@ -11,7 +13,7 @@ header {
   background-color: antiquewhite;
   align-items: center;
   height: 80px;
-  padding: 20px;
+  padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
   position: static;
@@ -62,7 +64,7 @@ footer {
   background-color: antiquewhite;
   align-items: center;
   height: 80px;
-  padding: 10px;
+  /* padding: 10px; */
   display: grid;
   position: static;
   justify-content: center;
@@ -102,7 +104,7 @@ ul{
   }
 } */
 
-@media (max-width:822px) {
+@media (max-width:823px) {
   header{
     font-size: 1.35em;
   }
@@ -130,7 +132,7 @@ ul{
   
 }
 
-@media (max-width:425px){
+@media (max-width:426px){
   header{
     font-size: 1.35em;
   }
@@ -141,9 +143,6 @@ ul{
     place-content: center;
   }
 
-  .nav-links{
-
-  }
 }
 /* ---- LANDING PAGE ONLY ---- */
 
@@ -177,6 +176,18 @@ main article{
 main img {
   width: 25vw;
   right: 0;
+}
+
+@media (max-width:426px){
+  main{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 95vw !important;
+  }
+
+  main article{
+    width: 90vw;
+  }
 }
 
 /* ==== ABOUT ME PAGE ONLY V2 ==== */
@@ -308,7 +319,7 @@ button:hover{
   background-color: black;
   color: whitesmoke;
 }
-@media (max-width:822px){
+@media (max-width:823px){
   /* .form-main{
     align-items: ;
 
@@ -351,7 +362,7 @@ button:hover{
   
 }
 
-@media (max-width:425px){
+@media (max-width:426px){
 
   form{
     display: flex;
