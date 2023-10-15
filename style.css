@@ -66,6 +66,9 @@ nav h1{
 .nav-links a:hover{
   color: white;
   background-color: black;
+  /* box-sizing: border-box;
+  height: 200%;
+  z-index: 1; */
 }
 
 footer {
@@ -420,7 +423,9 @@ form button{
   grid-column-start: span 3;
   width: 25%;
   justify-self: center;
+  transition: width 1s;
 }
+
 .form label, form legend {
   padding: 3px;
 }
@@ -437,6 +442,7 @@ form button{
 button:hover{
   background-color: black;
   color: whitesmoke;
+  width: 30%;
 }
 /* @media (max-width:823px){
   .form-main{
