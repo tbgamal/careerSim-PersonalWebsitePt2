@@ -12,20 +12,14 @@
   }
   nav{
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
     grid-template-rows: 1fr 2fr;
     place-content: center;
   }
   .title{
-    /* padding: 20px; */
     text-align: center;
-    /* grid-column: 4 span */
     font-size: 1.5em;
   }
   .nav-links a{
-    /* justify-content: space-between;
-    width: 100%;
-    text-align: center; */
     text-align: center;
     display: grid;
     font-size: 0.75em;
@@ -49,7 +43,6 @@
   .index-main{
     display: flex;
     flex-direction: row;
-    /* width: 95vw !important; */
     align-items: center;
     justify-content: space-between;
   }
@@ -138,11 +131,6 @@
   /* ---- CONTACT ME PAGE ONLY ---- */
   /* ==== */
 
-  /* .form-main{
-    align-items: ;
-
-  } */
-
   form{
     display: flex;
     flex-wrap: wrap;
@@ -177,7 +165,5 @@
     background-color: black;
     color: whitesmoke;
   }
-
-
 
 }

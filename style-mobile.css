@@ -10,12 +10,9 @@
   header{
     font-size: 1.35em;
     width: 100vw
-    /* width: 95vw; */
   }
   .title{
-    /* padding: 20px; */
     text-align: center;
-    /* grid-column: 4 span */
     font-size: 1em;
   }
   nav{
@@ -26,9 +23,6 @@
   }
 
   .nav-links a{
-    /* justify-content: space-between;
-    width: 100%;
-    text-align: center; */
     text-align: center;
     display: grid;
     font-size: 0.75em;
