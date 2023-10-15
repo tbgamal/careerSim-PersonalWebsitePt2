@@ -113,6 +113,10 @@
     align-items: center;
   }
 
+  .portfolio-main .outer-title{
+    width: 95vw;
+  }
+
 
 
   /* ==== */
