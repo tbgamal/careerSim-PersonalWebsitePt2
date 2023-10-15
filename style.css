@@ -114,26 +114,26 @@ ul{
   }
 } */
 
-@media (571px <= width <=823px) {
+/* @media (571px <= width <=823px) {
   header{
     font-size: 1.35em;
   }
   nav{
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 2fr;
     place-content: center;
   }
   .title{
-    /* padding: 20px; */
+    padding: 20px;
     text-align: center;
-    /* grid-column: 4 span */
+    grid-column: 4 span
     font-size: 1.5em;
   }
   .nav-links a{
     /* justify-content: space-between;
     width: 100%;
-    text-align: center; */
+    text-align: center;
     text-align: center;
     display: grid;
     font-size: 0.75em;
@@ -150,18 +150,18 @@ ul{
     font-size: 1.25em;
   }
   
-}
+} */
 
-@media (max-width:571px){
+/* @media (max-width:571px){
   header{
     font-size: 1.35em;
     width: 100vw
-    /* width: 95vw; */
+    width: 95vw;
   }
   .title{
-    /* padding: 20px; */
+    padding: 20px;
     text-align: center;
-    /* grid-column: 4 span */
+    grid-column: 4 span
     font-size: 1em;
   }
   nav{
@@ -172,9 +172,9 @@ ul{
   }
 
   .nav-links a{
-    /* justify-content: space-between;
+    ustify-content: space-between;
     width: 100%;
-    text-align: center; */
+    text-align: center; 
     text-align: center;
     display: grid;
     font-size: 0.75em;
@@ -190,7 +190,7 @@ ul{
     width: 100vw;
   }
 
-}
+} */
   
 
 
@@ -237,11 +237,11 @@ main img {
   right: 0;
 }
 
-@media (max-width:823px){
+/* @media (max-width:823px){
   main{
     display: flex;
     flex-direction: row;
-    /* width: 95vw !important; */
+    width: 95vw !important;
     align-items: center;
     justify-content: space-between;
   }
@@ -257,9 +257,9 @@ main img {
   height: 35vh;
   width: auto;
 
-}
+} */
 
-@media (max-width: 590px){
+/* @media (max-width: 590px){
   main{
     display: flex;
     flex-direction: column-reverse;
@@ -281,8 +281,9 @@ main img {
   height: 35vh;
   width: auto;
   }
-}
-@media (max-width:426px){
+} */
+
+/* @media (max-width:426px){
   main{
     display: flex;
     flex-direction: column-reverse;
@@ -304,7 +305,7 @@ main img {
   height: 35vh;
   width: auto;
   }
-}
+} */
 
 /* ==== */
 /* ==== ABOUT ME PAGE ONLY V2 ==== */
@@ -437,11 +438,11 @@ button:hover{
   background-color: black;
   color: whitesmoke;
 }
-@media (max-width:823px){
-  /* .form-main{
+/* @media (max-width:823px){
+  .form-main{
     align-items: ;
 
-  } */
+  }
 
   form{
     display: flex;
@@ -478,9 +479,9 @@ button:hover{
     color: whitesmoke;
   }
   
-}
+} */
 
-@media (max-width:426px){
+/* @media (max-width:426px){
 
   form{
     display: flex;
@@ -517,6 +518,6 @@ button:hover{
     color: whitesmoke;
   }
   
-}
+} */
 
 

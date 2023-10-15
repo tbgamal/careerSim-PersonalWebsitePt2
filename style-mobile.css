@@ -3,9 +3,10 @@
     max-width: 571px
 */
 
-/* ---- GENERALLY USED CSS ---- */
 
 @media (max-width:571px){
+
+  /* ==== GENERALLY USED CSS ==== */
   header{
     font-size: 1.35em;
     width: 100vw
@@ -43,4 +44,142 @@
     width: 100vw;
   }
 
+  /* ==== */
+  /* ---- LANDING PAGE ONLY ---- */
+  /* ==== */
+
+  .index-main{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 95vw !important;
+    align-items: center;
+  }
+
+  main .main-content {
+    width: 95vw;
+  }
+
+  main article{
+    width: 95vw;
+    font-size: 0.65em;
+    
+  }
+
+.index-main .profile-picture img{
+  height: 35vh;
+  width: auto;
+  }
+
+  /* ==== */
+  /* ---- ABOUT ME PAGE ONLY ---- */
+  /* ==== */
+
+  .about-main{
+    display: flex;
+    flex-direction: column;
+    width: 95vw !important;
+    align-items: center;
+  }
+  
+  .about-main .outer-title{
+    width: 95vw;
+  }
+
+  .about-main .inner-section{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .inner-image img{
+    width: 50vw;
+    height: ;
+  }
+
+  /* ==== */
+  /* ---- PORTFOLIO PAGE ONLY ---- */
+  /* ==== */
+
+  .portfolio-main{
+    display: flex;
+    flex-direction: column;
+    width: 95vw !important;
+    align-items: center;
+  }
+
+  .portfolio-main .inner-section{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+
+
+  /* ==== */
+  /* ---- CONTACT ME PAGE ONLY ---- */
+  /* ==== */
+
+  form{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    box-sizing: content-box;
+    width: 100%;
+  }
+  .form label, form legend {
+    padding: 3px;
+  }
+
+  .radiolabel {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .radiolabel div {
+    padding: 3px;
+  }
+
+  button:hover{
+    background-color: black;
+    color: whitesmoke;
+  }
+
+}
+
+
+/* SPECIAL MEDIA CASES */
+@media (572px => width => 590px){
+  main{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 95vw !important;
+    align-items: center;
+  }
+
+  main .main-content {
+    width: 95vw;
+  }
+
+  main article{
+    width: 95vw;
+    font-size: 0.65em;
+    
+  }
+
+  .index-main .profile-picture img{
+    height: 35vh;
+    width: auto;
+  }
+
+  
 }
