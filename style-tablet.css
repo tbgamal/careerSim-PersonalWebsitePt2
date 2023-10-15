@@ -3,7 +3,7 @@
   571px <= width <=823px
 */
 
-@media (571px <= width <=823px) {
+@media (571px <= width <= 823px) {
 
   /* ==== GENERALLY USED CSS ==== */
 
@@ -46,7 +46,7 @@
   /* ---- LANDING PAGE ONLY ---- */
   /* ==== */
 
-  main{
+  .index-main{
     display: flex;
     flex-direction: row;
     /* width: 95vw !important; */
@@ -63,6 +63,75 @@
   .index-main .profile-picture img{
     height: 35vh;
     width: auto;
+  }
+
+  /* ==== */
+  /* ---- ABOUT ME PAGE ONLY ---- */
+  /* ==== */
+
+  .about-main{
+    display: flex;
+    flex-direction: column;
+    width: 95vw !important;
+    align-items: center;
+  }
+  
+  .about-main .outer-title{
+    width: 95vw;
+  }
+
+  .about-main .inner-section{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .about-main h3{
+    font-size: 1.75em;
+  }
+
+  .inner-title p{
+    font-size: 1.20em
+  }
+
+  .inner-image img{
+    width: 50vw;
+  }
+
+  /* ==== */
+  /* ---- PORTFOLIO PAGE ONLY ---- */
+  /* ==== */
+
+  .portfolio-main{
+    display: flex;
+    flex-direction: column;
+    width: 95vw !important;
+    align-items: center;
+  }
+
+  .portfolio-main .inner-section{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .inner-section .inner-title{
+    width: 85vw;
+    margin-top: 10px;
+    font-size: 1.20em;
+  }
+
+  .inner-section ul{
+    font-size: 1.20em;
+    margin-left: 20px;
+  }
+
+  .portfolio-main h3{
+    font-size: 1.75em;
+  }
+
+  .portfolio-main .outer-title{
+    width: 95vw;
   }
 
   /* ==== */

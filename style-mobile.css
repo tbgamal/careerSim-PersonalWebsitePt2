@@ -91,9 +91,12 @@
     align-items: center;
   }
 
+  .about-main h3{
+    font-size: 1.5em;
+  }
+
   .inner-image img{
     width: 50vw;
-    height: ;
   }
 
   /* ==== */
@@ -111,6 +114,14 @@
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+  }
+
+  .inner-section .inner-title{
+    margin-top: 10px;
+  }
+
+  .portfolio-main h3{
+    font-size: 1.5em;
   }
 
   .portfolio-main .outer-title{
@@ -162,7 +173,7 @@
 
 
 /* SPECIAL MEDIA CASES */
-@media (572px => width => 590px){
+@media (572px <= width <= 590px){
   main{
     display: flex;
     flex-direction: column-reverse;
